@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	height: 100vh;
+	background-image: url("Bannernew2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.login-box {
+	position: absolute;
+	transform: translateX(8vw);
+	margin-top: 5vw;
+	width: 350px;
+	background: #f7d58d;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0 #000;
+}
+
+.login-box h2 {
+	color: #060d30;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.login-box form {
+	display: flex;
+	flex-direction: column;
+}
+
+.user-box {
+	position: relative;
+}
+
+.user-box input {
+	width: 100%;
+	padding: 10px 0;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid ;
+	outline: none;
+	background: transparent;
+	color: #000000;
+	font-size: 16px;
+}
+
+.user-box label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #000000;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+	top: -20px;
+	left: 0;
+	color: #000000;
+	font-size: 12px;
+}
+
+input[type="submit"] {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #f7d58d;
+	background: #4b1111;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+	background: #000000;
+}
+
+/*guruvaarsr*/
+img{
+	position: relative;
+	z-index: 1;
+	margin-top: 50px;
+	margin-left: 175px;
+}
